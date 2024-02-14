@@ -30,7 +30,7 @@ setup(
     version=__version__,
     description="RVT",
     long_description="",
-    author="Ankit Goyal",
+    author="Mark Yeatman",
     author_email="angoyal@nvidia.com",
     url="",
     keywords="robotics,computer vision",
@@ -40,6 +40,6 @@ setup(
         "Natural Language :: English",
         "Topic :: Scientific/Engineering",
     ],
-    packages=['rvt'],
+    packages=find_packages(),
     install_requires=requirements,
 )
